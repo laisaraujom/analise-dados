@@ -8,14 +8,14 @@ Crie um sistema que analise os dados contidos no arquivo lista_clientes.csv e, u
 Normalização dos dados
 
 Campo	Regras e validações
-Nome	
-• Extraia o nome completo, primeiro nome e segundo nome.
-• Os nomes devem estar registrado em “Camel Case”, com preposições (“da”, “de”, “do”, “das”, “dos”, “e”), que devem estar em minúsculo.
-Gênero	
-• Inferir pelo primeiro nome.
-• Disponibilize 3 estratégias de API: genderize.io, genderapi.io, gender-api.com.
-• O usuário escolhe qual API usar em tempo de execução.
-• Caso a API exija token, leia‐o de variável de ambiente (pesquise sobre isso).
+Nome: \n	
+• Extraia o nome completo, primeiro nome e segundo nome. \n
+• Os nomes devem estar registrado em “Camel Case”, com preposições (“da”, “de”, “do”, “das”, “dos”, “e”), que devem estar em minúsculo. \n
+Gênero	\n
+• Inferir pelo primeiro nome. \n
+• Disponibilize 3 estratégias de API: genderize.io, genderapi.io, gender-api.com.\n
+• O usuário escolhe qual API usar em tempo de execução.\n
+• Caso a API exija token, leia‐o de variável de ambiente (pesquise sobre isso).\n
 Celular	
 • Formato final: "DD 9XXXXXXXX".
 • Se faltar DDD, infira‐o pelo CEP (dica: utilize o serviço ViaCEP).
